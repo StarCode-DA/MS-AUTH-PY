@@ -1,0 +1,18 @@
+# Framework principal para construir la API
+fastapi
+# Servidor ASGI para ejecutar la aplicación
+uvicorn
+# ORM para manejar la base de datos
+sqlalchemy
+# Driver para conectar con PostgreSQL
+psycopg2-binary
+# Librería para hashing de contraseñas (limitada a versión < 4 por compatibilidad)
+bcrypt<4
+# Manejo de hashing con soporte para bcrypt
+passlib[bcrypt]
+# Manejo de JWT (autenticación)
+python-jose[cryptography]
+# Carga de variables de entorno desde .env
+python-dotenv
+# Configuración basada en Pydantic (settings del proyecto)
+pydantic-settings
